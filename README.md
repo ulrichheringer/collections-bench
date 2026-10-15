@@ -1,21 +1,23 @@
 # collections-bench
 
-Compara buscas em array, List, HashSet e array ordenado com dados de semente fixa.
+Compare lookups in arrays, `List<T>`, `HashSet<T>`, and sorted arrays with repeatable data and measurements.
 
-## Desktop
+## Run
 
-```sh
+Requires the .NET 10 SDK. Browser builds also need the WebAssembly workload: `dotnet workload install wasm-tools`.
+
+### Desktop
+
+~~~sh
 dotnet run --project CollectionsBench.Desktop/CollectionsBench.Desktop.csproj
-```
+~~~
 
-## Browser
+### Browser
 
-Requer o workload wasm-tools do .NET 10.
-
-```sh
+~~~sh
 dotnet run --project CollectionsBench.Browser/CollectionsBench.Browser.csproj
-```
+~~~
 
-## Exemplo
+## Example
 
-Execute cinco repetições com 15.000 valores e 1.500 consultas.
+Run five rounds with 15,000 values and 1,500 lookups.
