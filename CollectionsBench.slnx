@@ -1,0 +1,5 @@
+<Solution>
+  <Project Path="CollectionsBench.Browser/CollectionsBench.Browser.csproj" />
+  <Project Path="CollectionsBench.Desktop/CollectionsBench.Desktop.csproj" />
+  <Project Path="CollectionsBench/CollectionsBench.csproj" />
+</Solution>
